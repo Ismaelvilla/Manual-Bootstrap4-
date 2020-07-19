@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie-edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<style type="text/css">
+		.borde{
+			background-color: gray;
+			height: 200px;
+		}
+		.borde1{
+			background-color: aquamarine;
+			height: 50px;
+			text-align: center;
+		}
+		.borde2{
+			background-color: olivedrab;
+			height: 50px;
+			text-align: center;
+		}
+		.borde3{
+			background-color: orangered;
+			text-align: center;
+			height: 50px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+<!-- Empieza el contenido -->	
+
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<h3>CABECERA</h3>
+			<p>
+				This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+			</p>
+		</div>	
+	</div>
+
+	<div class="row">
+		<div class="col-12 col-sm-12  col-md-6  col-lg-2 col-xl-2 d-xs-none  d-md-block d-lg-block  borde1"> <p>Uno</p></div> <!-- d-none  d-md-block  ponemos que no se vea ninguno hasta md y a partir de aqui si se ven-->
+		<div class="col-12 col-sm-12  col-md-6  col-lg-8 col-xl-8  borde2"> <p>Dos</p></div>
+		<div class="col-12 col-sm-12 col-md-12  col-lg-2 col-xl-2  d-none d-md-block  borde3"> <p>tres</p></div>
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<h3>PIE DE PAGINA</h3>
+			<p>
+				This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+			</p>
+		</div>	
+	</div>
+
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col border">
+			<div class=""><!-- Cuando queremos que un elemento no interfieria con el otro -->
+				<span class="float-left">IZQUIERDA1</span>
+				<span class="float-right">DERECHA1</span>
+			</div>
+		</div>
+		<div class="col border">
+			<div class="">
+				<span class="float-left">IZQUIERDA2</span>
+				<span class="float-right">DERECHA2</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row d-block">
+		<div class="float-sm-right">UNO</div><br>
+		<div class="float-md-right">DOS</div><br>
+		<div class="float-lg-right">TRES</div><br>
+		<div class="float-xl-right">CUATRO</div><br>
+		<div class="float-none">CINCO</div>
+	</div>
+
+	<div class="row d-block">
+		<div class="mx-auto border" style="width:100px;text-align: center">CENTRO</div> <!-- mx-auto Alinear al centro -->
+	</div>
+</div>
+
+<div class="container border" style="height:500px;">
+	<div class="row justify-content-between borde1"> <!-- probar a poner end o start center para ver between -->
+		<div class="col-3 borde2">
+			<p>UNO</p>
+		</div>
+
+		<div class="col-3 borde3">
+			<p>DOS</p>
+		</div>
+
+		<div class="col-3 borde3">
+			<p>TRES</p>
+		</div>
+MINUTO 1:18:11
+	</div>
+</div>
+
+<!-- Fin del contenido -->
+<script src="js/jquery-3.4.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
